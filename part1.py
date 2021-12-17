@@ -11,7 +11,7 @@ number = int(input("What factorial are you looking for? "))
 
 product = 0
 
-for i in range(number):
+for i in range(0,number):
   product = product * i
 
 print(product)
